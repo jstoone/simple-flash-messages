@@ -6,10 +6,6 @@
         {
             "name": "Jakob Steinn",
             "email": "jakobsteinn@protonmail.com"
-        },
-        {
-            "name": "Jeffrey Way",
-            "email": "jeffrey@laracasts.com"
         }
     ],
     "require": {
@@ -21,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JakobSteinn\\Flash": "src/"
+            "JakobSteinn\\Flash\\": "src/"
         },
         "files": [
             "src/JakobSteinn/Flash/functions.php"
