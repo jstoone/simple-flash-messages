@@ -16,9 +16,9 @@
         "mockery/mockery": "dev-master"
     },
     "autoload": {
-        "psr-4": {
-            "JakobSteinn\\Flash\\": "src/"
-        },
+        "psr-0": {
+            "JakobSteinn\\Flash": "src/"
+        }
         "files": [
             "src/JakobSteinn/Flash/functions.php"
         ]
