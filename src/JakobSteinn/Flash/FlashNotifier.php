@@ -1,4 +1,4 @@
-<?php namespace Laracasts\Flash;
+<?php namespace JakobSteinn\Flash;
 
 class FlashNotifier
 {

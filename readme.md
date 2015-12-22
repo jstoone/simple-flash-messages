@@ -1,12 +1,14 @@
 # Easy Flash Messages
 
+This project is based on [code from Laracats' Jeffery Way.](https://github.com/laracasts/flash).
+
 ## Installation
 
 First, pull in the package through Composer.
 
 ```js
 "require": {
-    "laracasts/flash": "~1.3"
+    "jstoone/flash": "~1.3"
 }
 ```
 
@@ -14,7 +16,7 @@ And then, if using Laravel 5, include the service provider within `config/app.ph
 
 ```php
 'providers' => [
-    'Laracasts\Flash\FlashServiceProvider'
+    'JakobSteinn\Flash\FlashServiceProvider'
 ];
 ```
 
@@ -22,7 +24,7 @@ And, for convenience, add a facade alias to this same file at the bottom:
 
 ```php
 'aliases' => [
-    'Flash' => 'Laracasts\Flash\Flash'
+    'Flash' => 'JakobSteinn\Flash\Flash'
 ];
 ```
 

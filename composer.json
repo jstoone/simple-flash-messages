@@ -1,26 +1,30 @@
 {
-    "name": "laracasts/flash",
-    "description": "Easy flash notifications",
+    "name": "jstoone/simple-flash-messages",
+    "description": "Simple flash messages",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Jakob Steinn",
+            "email": "jakobsteinn@protonmail.com"
+        },
         {
             "name": "Jeffrey Way",
             "email": "jeffrey@laracasts.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.2"
     },
     "require-dev": {
         "mockery/mockery": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "Laracasts\\Flash": "src/"
+        "psr-4": {
+            "JakobSteinn\\Flash": "src/"
         },
         "files": [
-            "src/Laracasts/Flash/functions.php"
+            "src/JakobSteinn/Flash/functions.php"
         ]
     },
     "minimum-stability": "stable"
